@@ -1,0 +1,36 @@
+.container{
+    width: 400px;
+    margin: 50px auto auto;
+     box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1) ;
+}
+#display{
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button{
+    border: 0.5px solid #999;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+input{
+    grid-column: span 4;
+    border: 2px solid #999;
+    height: 90px;
+}
+#equal{
+    background-color: rgb(21, 112, 002);
+    color: antiquewhite;
+}
